@@ -59,7 +59,7 @@ The board is pin compatible with the MOS 6510 MPU chip, and has additional pin h
 * 6510 MPU
 * 6567 / 6569 VIC-II
 * 2 x 6581 / 8580 SID
-* 2 x 6522 CIA
+* 2 x 6526 CIA
 * Cartridge port pins
 
 For anyone wanting to experiment with a Commodore 64 setup, while avoiding damaged sockets and release of magic smoke:
