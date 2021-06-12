@@ -2,10 +2,15 @@
 
 (rule "BGA neckdown track_width"
    (constraint track_width (min 0.08mm) (opt 0.1mm))
-   (condition "A.insideCourtyard('U8') && (A.Layer == 'F.Cu' || A.Layer == 'In1.Cu')")
+   (condition "A.insideCourtyard('U4') && (A.Layer == 'F.Cu' || A.Layer == 'In1.Cu')")
 )
 
 (rule "BGA neckdown clearance"
    (constraint clearance (min 0.08mm) (opt 0.1mm))
-   (condition "A.insideCourtyard('U8') && A.Type == 'Track' && ((A.Layer == 'F.Cu' && B.Type == 'Pad') || (A.Layer == 'In1.Cu' && B.Type == 'Via'))")
+   (condition "A.insideCourtyard('U4') && A.Type == 'Track' && ((A.Layer == 'F.Cu' && B.Type == 'Pad') || (A.Layer == 'In1.Cu' && B.Type == 'Via'))")
+)
+
+(rule "Restrict vias"
+   (layer "In2.Cu")
+   (constraint disallow micro_via)
 )
