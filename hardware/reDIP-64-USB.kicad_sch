@@ -6,7 +6,7 @@
 
   (title_block
     (title "reDIP 64")
-    (date "2021-06-12")
+    (date "2021-06-16")
     (rev "0.2")
     (company "Nimrod")
     (comment 1 "© 2021 Dag Lem")
