@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "SMD-LX0707RGB-TR" (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 5.08 5.715 0)
       (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -18,29 +18,29 @@
       )
     )
     (symbol "SMD-LX0707RGB-TR_0_1"
-      (rectangle (start 5.08 5.08) (end -5.08 -5.08)
-        (stroke (width 0.254)) (fill (type background))
-      )
       (polyline
         (pts
           (xy 1.27 -3.556)
           (xy 1.778 -3.556)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -2.54)
           (xy 1.778 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 4.699 -3.556)
           (xy 2.667 -3.556)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -48,7 +48,8 @@
           (xy 1.27 -3.556)
           (xy 1.27 -3.048)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -56,7 +57,8 @@
           (xy 1.27 -2.54)
           (xy 1.27 -2.032)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -64,7 +66,8 @@
           (xy 3.683 -3.556)
           (xy 3.683 -4.064)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -73,7 +76,12 @@
           (xy 3.683 -3.556)
           (xy 4.699 -1.524)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (rectangle (start 5.08 5.08) (end -5.08 -5.08)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "SMD-LX0707RGB-TR_1_1"

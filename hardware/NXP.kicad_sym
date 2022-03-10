@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "CBTU02043" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 6.35 11.43 0)
       (effects (font (size 1.27 1.27)))
@@ -17,7 +17,8 @@
     )
     (symbol "CBTU02043_0_1"
       (rectangle (start -8.89 10.16) (end 8.89 -13.97)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "CBTU02043_1_1"
@@ -109,7 +110,8 @@
     )
     (symbol "NX3DV42GU10_0_1"
       (rectangle (start -8.89 10.16) (end 8.89 -13.97)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "NX3DV42GU10_1_1"
@@ -146,7 +148,7 @@
         (number "7" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -11.43 -11.43 0) (length 2.54)
-        (name "~OE~" (effects (font (size 1.27 1.27))))
+        (name "~{OE}" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 0 12.7 270) (length 2.54)
@@ -173,7 +175,8 @@
     )
     (symbol "PTN5110_0_1"
       (rectangle (start -13.97 10.16) (end 13.97 -15.24)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "PTN5110_1_1"

@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "LFE5UM5G-25F-8MG285C" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -35.56 3.81 0)
       (effects (font (size 1.524 1.524)) (justify right))
@@ -17,7 +17,8 @@
     )
     (symbol "LFE5UM5G-25F-8MG285C_1_1"
       (rectangle (start -11.43 15.24) (end 11.43 -13.97)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin power_in line (at 0 -17.78 90) (length 3.81)
         (name "GND[109]" (effects (font (size 1.27 1.27))))
@@ -558,7 +559,8 @@
     )
     (symbol "LFE5UM5G-25F-8MG285C_2_1"
       (rectangle (start -11.43 12.7) (end 11.43 -12.7)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -15.24 -5.08 0) (length 3.81)
         (name "PT63B/PCLKC0_1" (effects (font (size 1.27 1.27))))
@@ -591,7 +593,8 @@
     )
     (symbol "LFE5UM5G-25F-8MG285C_3_1"
       (rectangle (start -12.7 12.7) (end 12.7 -12.7)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -16.51 -5.08 0) (length 3.81)
         (name "PT71B/PCLKC1_0" (effects (font (size 1.27 1.27))))
@@ -624,7 +627,8 @@
     )
     (symbol "LFE5UM5G-25F-8MG285C_4_1"
       (rectangle (start -12.7 33.02) (end 12.7 -33.02)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -16.51 -20.32 0) (length 3.81)
         (name "PR41C/GR_PCLK2_0" (effects (font (size 1.27 1.27))))
@@ -721,7 +725,8 @@
     )
     (symbol "LFE5UM5G-25F-8MG285C_5_1"
       (rectangle (start -12.7 40.64) (end 11.43 -43.18)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -16.51 -2.54 0) (length 3.81)
         (name "PR56C" (effects (font (size 1.27 1.27))))
@@ -846,7 +851,8 @@
     )
     (symbol "LFE5UM5G-25F-8MG285C_6_1"
       (rectangle (start -11.43 40.64) (end 11.43 -38.1)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -15.24 25.4 0) (length 3.81)
         (name "PL47B/PCLKC6_1" (effects (font (size 1.27 1.27))))
@@ -963,7 +969,8 @@
     )
     (symbol "LFE5UM5G-25F-8MG285C_7_1"
       (rectangle (start -12.7 27.94) (end 11.43 -30.48)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -16.51 10.16 0) (length 3.81)
         (name "PL14A" (effects (font (size 1.27 1.27))))
@@ -1048,7 +1055,8 @@
     )
     (symbol "LFE5UM5G-25F-8MG285C_8_1"
       (rectangle (start -19.05 33.02) (end 19.05 -30.48)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -22.86 -2.54 0) (length 3.81)
         (name "PB6B/D4/MOSI2/IO4" (effects (font (size 1.27 1.27))))
@@ -1141,7 +1149,8 @@
     )
     (symbol "LFE5UM5G-25F-8MG285C_9_1"
       (rectangle (start -3.81 6.35) (end 3.81 -6.35)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -7.62 1.27 0) (length 3.81)
         (name "TDI" (effects (font (size 1.27 1.27))))
@@ -1162,7 +1171,8 @@
     )
     (symbol "LFE5UM5G-25F-8MG285C_10_1"
       (rectangle (start -8.89 13.97) (end 8.89 -13.97)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin bidirectional line (at -12.7 -8.89 0) (length 3.81)
         (name "REFCLKN_D0" (effects (font (size 1.27 1.27))))

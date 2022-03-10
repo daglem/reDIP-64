@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "Nimrod-Logo-N" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "#LOGO" (id 0) (at 0 -1.27 0)
       (effects (font (size 1.27 1.27)))
@@ -83,7 +83,8 @@
           (xy -0.2794 2.794)
           (xy -1.3208 2.794)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -155,7 +156,8 @@
           (xy 4.5212 2.794)
           (xy 4.445 2.794)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
   )
@@ -184,21 +186,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VCCA_1_1"

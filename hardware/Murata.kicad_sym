@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "MYRGP120100W21RA" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 5.08 8.89 0)
       (effects (font (size 1.27 1.27)))
@@ -17,7 +17,8 @@
     )
     (symbol "MYRGP120100W21RA_0_1"
       (rectangle (start -7.62 7.62) (end 7.62 -7.62)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MYRGP120100W21RA_1_1"
@@ -77,7 +78,8 @@
     )
     (symbol "MYRGP330100W21RA_0_1"
       (rectangle (start -7.62 7.62) (end 7.62 -7.62)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MYRGP330100W21RA_1_1"

@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "Microchip:DSC1103CE2-135.0000" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "DSC1103CE2-135.0000" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -23,7 +23,8 @@
     )
     (symbol "DSC1103CE2-135.0000_0_1"
       (rectangle (start -7.62 5.08) (end 7.62 -5.08)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (polyline
         (pts
@@ -37,7 +38,8 @@
           (xy -2.54 3.81)
           (xy -2.54 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "DSC1103CE2-135.0000_1_1"
