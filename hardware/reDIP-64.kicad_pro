@@ -60,7 +60,19 @@
           "width": 0.1
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|101720001|115680001|00000000-0000-0000-0000-00006025e238|00000000-0000-0000-0000-00006025e536",
+        "courtyards_overlap|101720001|133980001|00000000-0000-0000-0000-00006025e238|00000000-0000-0000-0000-0000606adce4",
+        "courtyards_overlap|106694261|115037130|98fc62a3-4468-46c5-ac7a-bfbb683be45a|9b3357a0-3844-47fe-bae2-2c26ec22fd5c",
+        "courtyards_overlap|106759630|115059999|9b3357a0-3844-47fe-bae2-2c26ec22fd5c|be5d8899-660e-46d2-ab1e-910254422435",
+        "courtyards_overlap|106759631|115680001|00000000-0000-0000-0000-000060261191|9b3357a0-3844-47fe-bae2-2c26ec22fd5c",
+        "courtyards_overlap|108344687|109550001|cdd4074a-8d69-4b71-9791-82893f7e42bd|fb61a683-83da-47d7-a930-042655a2d475",
+        "courtyards_overlap|110825313|113879999|00000000-0000-0000-0000-000060410788|7761c38a-e9e9-48c4-b571-7278cc340126",
+        "courtyards_overlap|113440001|115680001|00000000-0000-0000-0000-00006025e260|00000000-0000-0000-0000-00006025e536",
+        "courtyards_overlap|113440001|133980001|00000000-0000-0000-0000-00006025e260|00000000-0000-0000-0000-0000606adce4",
+        "track_dangling|102950000|113160000|04f9e334-348b-4697-b91d-75b34fc5637a|00000000-0000-0000-0000-000000000000",
+        "track_dangling|103030000|112440000|9fc950af-55d7-4758-9dbe-cc671fbf01bc|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -69,12 +81,13 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -93,6 +106,7 @@
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -137,6 +151,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.1
         },
         {
           "diameter": 0.4,
@@ -279,7 +297,7 @@
         0,
         1,
         0,
-        2,
+        1,
         2,
         2,
         2
@@ -348,7 +366,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -370,7 +388,7 @@
       {
         "bus_width": 12.0,
         "clearance": 0.1,
-        "diff_pair_gap": 0.1,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1,
         "line_style": 0,
@@ -387,7 +405,7 @@
       {
         "bus_width": 12.0,
         "clearance": 0.1,
-        "diff_pair_gap": 0.1,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1,
         "line_style": 0,
@@ -397,11 +415,13 @@
         "nets": [
           "+1V2",
           "+2V5",
-          "+3V0",
           "+3V3",
           "+5V",
           "GND",
-          "VBUS"
+          "VCC",
+          "VCCA",
+          "VDDA",
+          "VDDD"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -417,13 +437,15 @@
     "net_colors": {
       "+1V2": "rgb(194, 0, 194)",
       "+2V5": "rgb(0, 0, 194)",
-      "+3V0": "rgb(194, 0, 0)",
-      "+3V3": "rgb(255, 0, 0)",
-      "+5V": "rgb(194, 0, 0)",
+      "+3V3": "rgb(194, 0, 0)",
+      "+5V": "rgb(255, 0, 0)",
       "GND": "rgb(0, 132, 0)",
-      "VBUS": "rgb(72, 0, 0)",
-      "VCC": "rgb(132, 0, 0)",
-      "VCCA": "rgb(0, 255, 255)"
+      "VBUS": "rgb(255, 0, 0)",
+      "VCBT": "rgb(194, 0, 0)",
+      "VCC": "rgb(255, 0, 0)",
+      "VCCA": "rgb(0, 194, 194)",
+      "VDDA": "rgb(194, 0, 0)",
+      "VDDD": "rgb(194, 0, 194)"
     }
   },
   "pcbnew": {
