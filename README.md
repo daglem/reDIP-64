@@ -70,7 +70,7 @@ additional pin headers to cover all the custom chips and I/O in the
 Commodore 64:
 
 * 6510 / 8500 MPU
-* 6567 / 6569 VIC-II
+* 6567/6569 / 8562/8565 VIC-II
 * 6581 / 8580 SID (x 2)
 * 2 x 6526 CIA
 * Cartridge port signals
@@ -80,8 +80,7 @@ For anyone interested in experimenting with a Commodore 64 setup,
 while avoiding blown fuses and a broken reDIP 64 board:
 
 * A 2A C64 power supply is recommended
-* A 40 pin stamped DIP adapter socket is recommended, in order to
-  avoid damaging the board on insertion and removal
+* Be careful not to apply force to SMD components on insertion and removal
 
 The idea is that one can start by mounting the reDIP 64 in a Commodore
 64, replacing the 6510 / 8500 MPU. This will make it possible to communicate

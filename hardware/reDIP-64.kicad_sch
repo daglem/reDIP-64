@@ -1398,20 +1398,17 @@
     (path "/00000000-0000-0000-0000-000060256df0/00000000-0000-0000-0000-0000602a5bc1"
       (reference "J1") (unit 1) (value "USB4080") (footprint "GCT:USB_C_Receptacle_GCT_USB4080")
     )
-    (path "/00000000-0000-0000-0000-000060305eb8/00000000-0000-0000-0000-0000656c83c2"
-      (reference "J2") (unit 1) (value "Conn_01x20") (footprint "reDIP:PinHeader_1x20_P2.54mm_Vertical_Machined")
-    )
-    (path "/00000000-0000-0000-0000-000060305eb8/00000000-0000-0000-0000-0000656c83c8"
-      (reference "J3") (unit 1) (value "Conn_01x20") (footprint "reDIP:PinHeader_1x20_P2.54mm_Vertical_Machined")
+    (path "/00000000-0000-0000-0000-000060305eb8/26d6a4b7-9180-4eb2-bcd2-975acb2abcaa"
+      (reference "J2") (unit 1) (value "Conn_02x20_Counter_Clockwise") (footprint "reDIP:DIP-40_W15.24mm_Header")
     )
     (path "/00000000-0000-0000-0000-000060305eb8/00000000-0000-0000-0000-0000656c868e"
-      (reference "J4") (unit 1) (value "Conn_01x20") (footprint "reDIP:PinHeader_1x20_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "Conn_01x20") (footprint "reDIP:PinHeader_1x20_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060305eb8/14b83d39-dfce-4c08-ad09-5e28d4e3379a"
-      (reference "J5") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "reDIP:PinHeader_2x20_P2.54mm_Vertical")
+      (reference "J4") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "reDIP:PinHeader_2x20_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006033edce/00000000-0000-0000-0000-0000615689bc"
-      (reference "J6") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "reDIP:PinHeader_2x03_P1.27mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "reDIP:PinHeader_2x03_P1.27mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000602a6f33/afc59587-1364-4fcb-b15d-99096eede140"
       (reference "L1") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_0603_1608Metric")

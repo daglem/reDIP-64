@@ -14,3 +14,9 @@
    (layer "In2.Cu")
    (constraint disallow micro_via)
 )
+
+(rule "DIP-40 header"
+   (layer "B.Cu")
+   (condition "A.Reference == 'J2'")
+   (constraint courtyard_clearance (min -1mm))
+)
