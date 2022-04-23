@@ -131,8 +131,8 @@ The board can be of course also be used to experiment with e.g.
 
 ## Disclaimer
 
-Please note that this is only my third board - rookie mistakes are
-probably made, and feedback is welcome.
+Please note that this is only my third board design - rookie mistakes
+are probably made, and feedback is welcome.
 
 ## Board images
 

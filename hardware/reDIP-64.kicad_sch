@@ -6,7 +6,7 @@
 
   (title_block
     (title "reDIP 64")
-    (date "2022-04-14")
+    (date "2022-04-23")
     (rev "1.0")
     (company "Nimrod")
     (comment 1 "© 2021-2022 Dag Lem")
@@ -687,7 +687,7 @@
     (path "/00000000-0000-0000-0000-000060256df0/00000000-0000-0000-0000-000060875658"
       (reference "#PWR06") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060256df0/00000000-0000-0000-0000-0000608bdee0"
+    (path "/00000000-0000-0000-0000-000060256df0/e1a9996b-1bcc-47bd-b0d8-0cb6946c959e"
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060256df0/00000000-0000-0000-0000-0000608caeab"
@@ -1152,19 +1152,22 @@
     (path "/00000000-0000-0000-0000-00006032e2dd/00000000-0000-0000-0000-00006033dc76"
       (reference "#PWR0161") (unit 1) (value "VDDA") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006032e2dd/00000000-0000-0000-0000-00006033dc68"
-      (reference "#PWR0162") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-00006032e2dd/44eca545-9d58-4969-ab34-f459e5ac1133"
+      (reference "#PWR0162") (unit 1) (value "VDDA") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006032e2dd/00000000-0000-0000-0000-00006033dcc1"
+    (path "/00000000-0000-0000-0000-00006032e2dd/00000000-0000-0000-0000-00006033dc68"
       (reference "#PWR0163") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006032e2dd/00000000-0000-0000-0000-00006033dc00"
+    (path "/00000000-0000-0000-0000-00006032e2dd/00000000-0000-0000-0000-00006033dcc1"
       (reference "#PWR0164") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060256df0/00000000-0000-0000-0000-00006084d50d"
-      (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0201_0603Metric")
+    (path "/00000000-0000-0000-0000-00006032e2dd/00000000-0000-0000-0000-00006033dc00"
+      (reference "#PWR0165") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060256df0/00000000-0000-0000-0000-0000607c2956"
+    (path "/00000000-0000-0000-0000-000060256df0/00000000-0000-0000-0000-00006084d50d"
+      (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000060256df0/517d6a3f-e7e9-4a7f-9e21-1a83a5ec1c7a"
       (reference "C2") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0201_0603Metric")
     )
     (path "/00000000-0000-0000-0000-000060256df0/00000000-0000-0000-0000-0000608cae9f"
@@ -1366,10 +1369,10 @@
       (reference "C68") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0201_0603Metric")
     )
     (path "/00000000-0000-0000-0000-00006032e2dd/00000000-0000-0000-0000-00006033dc54"
-      (reference "C69") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0201_0603Metric")
+      (reference "C69") (unit 1) (value "10uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J")
     )
     (path "/00000000-0000-0000-0000-00006032e2dd/00000000-0000-0000-0000-00006033dc5e"
-      (reference "C70") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0201_0603Metric")
+      (reference "C70") (unit 1) (value "10uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J")
     )
     (path "/00000000-0000-0000-0000-000060256df0/00000000-0000-0000-0000-0000605760a1"
       (reference "D1") (unit 1) (value "ESD7241") (footprint "ONSemi:CASE_714AB_1.0x0.6mm")
