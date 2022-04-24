@@ -40,7 +40,7 @@ in particular.
 
 #### 100 header pins:
 
-* 5V input
+* 5V input / output
 * 3.3V output
 * 92 FPGA GPIO
 * 5 audio pins (stereo line input, stereo line output, GND)
@@ -58,7 +58,7 @@ A separate 6 pin header is provided for JTAG.
 
 #### USB-C functions:
 
-* 5V power
+* 5V power in / out
 * USB Power Delivery (PD)
 * FPGA Full Speed USB
 * FPGA DisplayPort (DP Alt Mode)
@@ -80,7 +80,7 @@ For anyone interested in experimenting with a Commodore 64 setup,
 while avoiding blown fuses and a broken reDIP 64 board:
 
 * A 2A C64 power supply is recommended
-* Be careful not to apply force to SMD components on insertion and removal
+* Be careful not to apply force to SMD components on insertion and removal - use a ZIF socket if possible
 
 The idea is that one can start by mounting the reDIP 64 in a Commodore
 64, replacing the 6510 / 8500 MPU. This will make it possible to communicate
@@ -117,6 +117,9 @@ implementation of a retro computer :wink:
 To create a fully functional retro computer, i.e. with I/O which can
 interface with original perhiperals, physical connectors and glue
 logic must be added to the mix. This can make for some fun projects!
+
+Using the suggested GPIO, a fully functional custom C64 can be built
+using a minimum of additional components.
 
 ## Other FPGA projects
 
