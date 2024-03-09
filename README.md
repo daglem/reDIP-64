@@ -1,7 +1,7 @@
 # reDIP 64
 
 ## Commodore 64 FPGA emulation platform
-![Board](documentation/reDIP-64-board.png)
+![Board](hardware/documentation/reDIP-64-board.png)
 
 ## Overview
 
@@ -141,4 +141,4 @@ are probably made, and feedback is welcome.
 
 Board Front | Board Back
 ----------- | ----------
-![Board Front](documentation/reDIP-64-board-front.png) | ![Board Back](documentation/reDIP-64-board-back.png)
+![Board Front](hardware/documentation/reDIP-64-board-front.png) | ![Board Back](hardware/documentation/reDIP-64-board-back.png)
